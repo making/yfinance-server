@@ -1,0 +1,8 @@
+image: ghcr.io/making/yfinance-server@sha256:c024891565f49422f6fbe498d6b56cab78115e23deb468cc129b59ff3f0c2acd
+git_revision: cc135341cb437f8faeedee89cf875b8d868cf932
+deployment:
+  image:
+    repository: ghcr.io/making/yfinance-server
+    digest: sha256:c024891565f49422f6fbe498d6b56cab78115e23deb468cc129b59ff3f0c2acd
+  podLabels:
+    github.com/revision: cc135341cb437f8faeedee89cf875b8d868cf932
